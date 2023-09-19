@@ -27,7 +27,7 @@
 
 Чтобы начать работу, добавьте ссылку на плагин в своем файле `fastlane/Pluginfile`:
 ```ruby
-gem "fastlane-plugin-lazurite", git: "https://github.com/CheeryLee/fastlane-plugin-lazurite" 
+gem "fastlane-plugin-lazurite", git: "https://github.com/CheeryLee/fastlane-plugin-lazurite.git" 
 ```
 
 ## Использование
