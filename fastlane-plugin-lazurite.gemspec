@@ -3,11 +3,11 @@ require_relative "lib/fastlane/plugin/lazurite/version"
 Gem::Specification.new do |spec|
   spec.name = "fastlane-plugin-lazurite"
   spec.version = Fastlane::Lazurite::VERSION
-  spec.authors = ["CheeryLee"]
-  spec.email = ["cheerylee90@gmail.com"]
+  spec.authors = ["Skobelev"]
+  spec.email = ["sds-83@mail.ru"]
 
   spec.summary = "Faslane plugin for RuStore deployment"
-  spec.homepage = "https://github.com/CheeryLee/fastlane-plugin-rustore"
+  spec.homepage = "https://github.com/skobelev-dmitriy/fastlane-plugin-rustore"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
