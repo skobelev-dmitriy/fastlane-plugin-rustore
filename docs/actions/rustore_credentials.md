@@ -9,7 +9,7 @@
 
 | Параметр           | Описание                                                                 | Значение по умолчанию |
 |--------------------|--------------------------------------------------------------------------|-----------------------|
-| `company_id`       | ID компании                                                              |                       |
+| `key_id`           | ID ключа                                                              |                       |
 | `private_key_file` | Путь к файлу с приватным ключом.                                         |                       |
 | `private_key`      | Приватный ключ. Укажите этот параметр, если не хотите работать с файлом. |                       |
 
@@ -17,14 +17,14 @@
 
 ```ruby
 rustore_credentials(
-  company_id: 123456,
+  key_id: 123456,
   private_key_file: "~/keys/rustore_priv_key.txt"
 )
 ```
 
 ```ruby
 rustore_credentials(
-  company_id: 123456,
+  key_id: 123456,
   private_key: "n9Y8Q~sdfbFDSAd87ww2csd~xc57"
 )
 ```
