@@ -4,7 +4,7 @@
 <a href="https://opensource.org/licenses/MIT">
   <img alt="Gem" src="https://img.shields.io/badge/License-MIT-yellow.svg">
 </a>
-<a href="https://github.com/CheeryLee/fastlane-plugin-lazurite/releases">
+<a href="https://github.com/skobelev-dmitriy/fastlane-plugin-rustore/releases">
   <img alt="Gem" src="https://img.shields.io/github/v/release/CheeryLee/fastlane-plugin-lazurite?display_name=tag&include_prereleases">
 </a>
 <img alt="Work in progress" src="https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg">
@@ -27,7 +27,7 @@
 
 Чтобы начать работу, добавьте ссылку на плагин в своем файле `fastlane/Pluginfile`:
 ```ruby
-gem "fastlane-plugin-lazurite", git: "https://github.com/CheeryLee/fastlane-plugin-lazurite.git" 
+gem "fastlane-plugin-rustore", git: "https://github.com/skobelev-dmitriy/fastlane-plugin-rustore.git" 
 ```
 
 ## Использование
@@ -54,7 +54,7 @@ fastlane action upload_to_rustore # или любой другой action
 
 ## Обратная связь
 
-По всем вопросам, связанным с данным проектом, используйте [GitHub issue](https://github.com/CheeryLee/fastlane-plugin-lazurite/issues).
+По всем вопросам, связанным с данным проектом, используйте [GitHub issue](https://github.com/skobelev-dmitriy/fastlane-plugin-rustore/issues).
 
 ## Решение проблем
 
