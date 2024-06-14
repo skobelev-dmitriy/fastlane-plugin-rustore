@@ -16,7 +16,7 @@ module Fastlane
         end
 
         private_key = private_key.strip
-        Helper::Uploader.authorize(params[:company_id], private_key)
+        Helper::Uploader.authorize(params[:key_id], private_key)
         UI.success("Credentials for RuStore account are successfully saved for further actions")
       end
 
@@ -35,12 +35,12 @@ module Fastlane
       def self.available_options
         [
           FastlaneCore::ConfigItem.new(
-            key: :company_id,
-            description: "ID of RuStore company",
+            key: :key_id,
+            description: "ID of RuStore app",
             optional: false,
             type: String,
             verify_block: proc do |value|
-              UI.user_error!("Company ID can't be empty") unless value && !value.empty?
+              UI.user_error!("Key ID can't be empty") unless value && !value.empty?
             end
           ),
           FastlaneCore::ConfigItem.new(
