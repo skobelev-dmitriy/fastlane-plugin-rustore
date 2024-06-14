@@ -1,7 +1,7 @@
 require_relative "lib/fastlane/plugin/lazurite/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "fastlane-plugin-lazurite"
+  spec.name = "fastlane-plugin-rustore"
   spec.version = Fastlane::Lazurite::VERSION
   spec.authors = ["Skobelev"]
   spec.email = ["sds-83@mail.ru"]
